@@ -21,5 +21,8 @@ foreach ($array as $value) {
     if ($perfil == '2') {
         header("Location: administrador.php");
     }
+    if ($perfil == '3') {
+        header("Location: registrar_compra.php");
+    }
 }
 ?>
